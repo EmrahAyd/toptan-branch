@@ -220,7 +220,7 @@
          crtr.innerHTML = `<div class="card text-center" "> <img src="` + productsList[i].Resim + `" class="card-img-top" alt="..."><div class="card-body float-end flex-fill bottom-0"><h5 class="card-title text-center">` + productsList[i].UrunAdi + `</h5><p class="card-text text-center">` + productsList[i].Fiyat + ` TL</p>
          
        </div>
-       <a href="#" class=" btn btn-success">Sipariş ver!</a>
+       <a href="https://wa.me/905525225723?text=` + productsList[i].Resim + `Merhaba%20`+productsList[i].UrunAdi+`%20ile%20ilgili%20bilgi%20almak%20istemiştim" class=" btn btn-success">Sipariş ver!</a>
        </div></div>
        `;
        document.querySelector('.kategoris').appendChild(crtr);
@@ -229,6 +229,8 @@
           
         }
         elbise("all");
+
+
 </script>
 
 

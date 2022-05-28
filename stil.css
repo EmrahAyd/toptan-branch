@@ -98,8 +98,11 @@ margin-bottom: 20px;
     --active-color : #2ecc71;
 
 }
-
-
+iframe{
+  display: none;
+}
+span{display: none;}
+.skiptranslate>span{display: none;}
 
 .slider-container{
     height: 75vh;
@@ -142,7 +145,7 @@ margin-bottom: 20px;
     margin-bottom: 10px;
 }
 
-.left-slides p{
+.left-slides p{ left: 120px;
     font-size: 1.5rem;
 }
 
